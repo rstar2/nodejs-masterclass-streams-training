@@ -1,7 +1,6 @@
 'use strict'
 
 const fs = require('fs')
-const util = require('util')
 const stream = require('stream')
 const { pipeline, finished } = require('stream/promises')
 const path = require('path')
